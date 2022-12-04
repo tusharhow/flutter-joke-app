@@ -12,7 +12,7 @@ class ApiService {
       var jokes = JokeModel.fromJson(response.data);
       return [jokes];
     } else {
-      throw Exception('Failed to load games');
+      throw Exception('Failed to load jokes');
     }
   }
 }
